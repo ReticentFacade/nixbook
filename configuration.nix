@@ -1,0 +1,83 @@
+{
+  config,
+  pkgs,
+  inputs,
+  ...
+}: {
+  imports = [
+    ./hardware-configuration.nix
+    # -------
+    # It is 11,4 actually (use sudo cat /sys/devices/virtual/dmi/id/product_name to know)
+    # But we're using 11,5 'cause that's available (and almost identical)
+    # <nixos-hardware/apple/macbook-pro/11-5>
+    # -------
+    ./modules/system/boot.nix
+    ./modules/system/networking.nix
+    ./modules/system/services.nix
+    ./modules/system/users.nix
+    # ./modules/shared/fonts.nix
+  ];
+
+  nix = {
+    settings = {
+      experimental-features = ["nix-command" "flakes"];
+      auto-optimise-store = true;
+    };
+
+    gc = {
+      automatic = true;
+      dates = "weekly";
+      options = "--delete-older-than 7d";
+    };
+  };
+
+  # programs.firefox.enable = true;
+  programs.hyprland.enable = true;
+
+  time.timeZone = "Asia/Kolkata";
+
+  # Select internationalisation properties.
+  i18n = {
+    defaultLocale = "en_US.UTF-8";
+
+    extraLocaleSettings = {
+      LC_ADDRESS = "en_US.UTF-8";
+      LC_IDENTIFICATION = "en_US.UTF-8";
+      LC_MEASUREMENT = "en_US.UTF-8";
+      LC_MONETARY = "en_US.UTF-8";
+      LC_NAME = "en_US.UTF-8";
+      LC_NUMERIC = "en_US.UTF-8";
+      LC_PAPER = "en_US.UTF-8";
+      LC_TELEPHONE = "en_US.UTF-8";
+      LC_TIME = "en_US.UTF-8";
+    };
+  };
+
+  security = {
+    rtkit = {
+      enable = true;
+    };
+  };
+
+  nixpkgs.config.allowUnfree = true;
+
+  # List packages installed in system profile. To search, run:
+  # $ nix search wget
+  # environment.systemPackages = with pkgs; [
+  #   adwaita-icon-theme
+  #   iw
+  #   vim
+  #   git
+  #   wget
+  #   libreoffice
+  #
+  #   inputs.helix.packages."${pkgs.system}".helix
+  #
+  #   curl
+  #   ghostty
+  #   tree
+  #   fastfetch
+  # ];
+
+  system.stateVersion = "24.11";
+}
