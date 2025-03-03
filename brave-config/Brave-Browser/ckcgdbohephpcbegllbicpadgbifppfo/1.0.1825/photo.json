@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "130672b3-00eb-422c-b5d2-e0573695dc95",
+      "logo": {
+        "imageUrl": "f5d34bf7-4156-43e2-be32-ec75e8ebffbd.png",
+        "destinationUrl": "https://brave.com/podcast/e60/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+        "alt": "The Brave Technologist Podcast: Episode 60 - Blockchain and AI revolution. Safeguarding digital transactions and empowering user privacy",
+        "companyName": "Brave Software"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "f726bef4-d2aa-411e-9c26-f1ba99acdc8d.jpeg",
+          "creativeInstanceId": "0a67f3db-3cbe-43ac-bc9a-38b9e4a51c6b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "130672b3-00eb-422c-b5d2-e0573695dc95",
+      "logo": {
+        "imageUrl": "f5d34bf7-4156-43e2-be32-ec75e8ebffbd.png",
+        "destinationUrl": "https://brave.com/podcast/e60/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+        "alt": "The Brave Technologist Podcast: Episode 60 - Blockchain and AI revolution. Safeguarding digital transactions and empowering user privacy",
+        "companyName": "Brave Software"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "f726bef4-d2aa-411e-9c26-f1ba99acdc8d.jpeg",
+          "creativeInstanceId": "0a67f3db-3cbe-43ac-bc9a-38b9e4a51c6b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}

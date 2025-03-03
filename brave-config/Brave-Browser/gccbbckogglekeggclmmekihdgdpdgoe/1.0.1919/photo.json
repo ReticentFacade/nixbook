@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "c25b3853-747f-48ee-ac3d-f97721b47145",
+      "logo": {
+        "imageUrl": "7b4b22dd-e987-4653-b0f8-ae042977f7e6.png",
+        "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-wallet&mtm_content=6b0103e3-4b08-4e01-aa4a-6413f01085eb&mtm_date=20250303",
+        "alt": "Trade crypto seamlessly, all from one place.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "e1a795ce-158b-433d-91e1-e303dd33c29f.jpg",
+          "creativeInstanceId": "6b0103e3-4b08-4e01-aa4a-6413f01085eb",
+          "focalPoint": {
+            "x": 891,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "a782280d-d6b6-4d62-bf86-557878f00746",
+      "logo": {
+        "imageUrl": "12b36ec0-bf85-447f-b13a-2510fe8cdfda.png",
+        "destinationUrl": "https://blocksurvey.io/brave-survey-OUtGT7XhSZOG6eci2CC.8Q?language=en_US&region=US&operating_system=Desktop&cohort_age=30",
+        "alt": "Survey | Tell us what you think about Brave | Give feedback",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "b9175b11-120e-43dd-ad47-52dfd4b45efa.jpg",
+          "creativeInstanceId": "fed66fff-ee3a-4c80-9d1a-e3e47c97b066",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "conditionMatchers": [
+            {
+              "prefPath": "[virtual]:operating_system|locale|region",
+              "condition": "US"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|locale|language",
+              "condition": "en"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|name",
+              "condition": "^(Windows|Mac OS X|Linux)$"
+            },
+            {
+              "prefPath": "[virtual]:browser|build_channel",
+              "condition": "stable"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≥]:30"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|fed66fff-ee3a-4c80-9d1a-e3e47c97b066|views",
+              "condition": "[R≤]:5"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|fed66fff-ee3a-4c80-9d1a-e3e47c97b066|clicks",
+              "condition": "[R≤]:2"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≤]:180"
+            }
+          ]
+        },
+        {
+          "imageUrl": "b9175b11-120e-43dd-ad47-52dfd4b45efa.jpg",
+          "creativeInstanceId": "37bfdedc-dec4-41ba-a2a6-589c46cfe6ef",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "12b36ec0-bf85-447f-b13a-2510fe8cdfda.png",
+            "destinationUrl": "https://blocksurvey.io/brave-survey-OUtGT7XhSZOG6eci2CC.8Q?language=en_US&region=US&operating_system=Desktop&cohort_age=1",
+            "alt": "Survey | Tell us what you think about Brave | Give feedback",
+            "companyName": "Brave"
+          },
+          "conditionMatchers": [
+            {
+              "prefPath": "[virtual]:operating_system|locale|region",
+              "condition": "US"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|locale|language",
+              "condition": "en"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|name",
+              "condition": "^(Windows|Mac OS X|Linux)$"
+            },
+            {
+              "prefPath": "[virtual]:browser|build_channel",
+              "condition": "stable"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≥]:1"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|37bfdedc-dec4-41ba-a2a6-589c46cfe6ef|views",
+              "condition": "[R≤]:5"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|37bfdedc-dec4-41ba-a2a6-589c46cfe6ef|clicks",
+              "condition": "[R≤]:2"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≤]:2"
+            }
+          ]
+        },
+        {
+          "imageUrl": "b9175b11-120e-43dd-ad47-52dfd4b45efa.jpg",
+          "creativeInstanceId": "4215936a-ffb8-4826-b650-656e95b25a28",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "12b36ec0-bf85-447f-b13a-2510fe8cdfda.png",
+            "destinationUrl": "https://blocksurvey.io/brave-survey-OUtGT7XhSZOG6eci2CC.8Q?language=en_US&region=US&operating_system=Desktop&cohort_age=7",
+            "alt": "Survey | Tell us what you think about Brave | Give feedback",
+            "companyName": "Brave"
+          },
+          "conditionMatchers": [
+            {
+              "prefPath": "[virtual]:operating_system|locale|region",
+              "condition": "US"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|locale|language",
+              "condition": "en"
+            },
+            {
+              "prefPath": "[virtual]:operating_system|name",
+              "condition": "^(Windows|Mac OS X|Linux)$"
+            },
+            {
+              "prefPath": "[virtual]:browser|build_channel",
+              "condition": "stable"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≥]:7"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|4215936a-ffb8-4826-b650-656e95b25a28|views",
+              "condition": "[R≤]:5"
+            },
+            {
+              "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|4215936a-ffb8-4826-b650-656e95b25a28|clicks",
+              "condition": "[R≤]:2"
+            },
+            {
+              "prefPath": "uninstall_metrics.installation_date2",
+              "condition": "[T≤]:10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "campaignId": "c25b3853-747f-48ee-ac3d-f97721b47145",
+      "logo": {
+        "imageUrl": "7b4b22dd-e987-4653-b0f8-ae042977f7e6.png",
+        "destinationUrl": "https://brave.com/wallet/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-wallet&mtm_content=6b0103e3-4b08-4e01-aa4a-6413f01085eb&mtm_date=20250303",
+        "alt": "Trade crypto seamlessly, all from one place.",
+        "companyName": "Brave"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "e1a795ce-158b-433d-91e1-e303dd33c29f.jpg",
+          "creativeInstanceId": "6b0103e3-4b08-4e01-aa4a-6413f01085eb",
+          "focalPoint": {
+            "x": 891,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}

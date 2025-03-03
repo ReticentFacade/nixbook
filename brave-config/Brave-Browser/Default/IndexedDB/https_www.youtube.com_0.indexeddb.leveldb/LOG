@@ -1,0 +1,12 @@
+2025/03/03-18:30:29.812 b01 Reusing MANIFEST /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/03-18:30:29.813 b01 Recovering log #15
+2025/03/03-18:30:29.824 b01 Reusing old log /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000015.log 
+2025/03/03-18:30:46.190 b02 Level-0 table #20: started
+2025/03/03-18:30:46.240 b02 Level-0 table #20: 1707282 bytes OK
+2025/03/03-18:30:46.253 b02 Delete type=0 #15
+2025/03/03-18:31:40.287 b01 Compacting 1@1 + 1@2 files
+2025/03/03-18:31:40.301 b01 Generated table #21@1: 509 keys, 95317 bytes
+2025/03/03-18:31:40.302 b01 Compacted 1@1 + 1@2 files => 95317 bytes
+2025/03/03-18:31:40.312 b01 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/03-18:31:40.312 b01 Delete type=2 #20
+2025/03/03-18:31:40.313 b01 Delete type=2 #17

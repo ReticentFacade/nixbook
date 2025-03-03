@@ -7,7 +7,8 @@
       '')
 
       brave
-      spotify
+      kmonad # for keyboard shortcut settings
+      # spotify
       libreoffice
       obsidian
       gimp

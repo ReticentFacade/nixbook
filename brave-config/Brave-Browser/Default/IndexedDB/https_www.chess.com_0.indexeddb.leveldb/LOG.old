@@ -1,0 +1,30 @@
+2025/03/03-14:47:47.438 bab Reusing MANIFEST /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/03-14:47:47.439 bab Recovering log #100
+2025/03/03-14:47:47.453 bab Reusing old log /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/000100.log 
+2025/03/03-15:24:36.348 bad Level-0 table #128: started
+2025/03/03-15:24:36.362 bad Level-0 table #128: 314165 bytes OK
+2025/03/03-15:24:36.374 bad Delete type=0 #100
+2025/03/03-15:24:36.375 bad Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/03-15:24:36.378 bad Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\xf0\x8b@' @ 563284 : 1
+2025/03/03-15:24:36.378 bad Compacting 1@1 + 9@2 files
+2025/03/03-15:24:36.433 bad Generated table #129@1: 7216 keys, 2172515 bytes
+2025/03/03-15:24:36.482 bad Generated table #130@1: 7873 keys, 2167347 bytes
+2025/03/03-15:24:36.532 bad Generated table #131@1: 8087 keys, 2169243 bytes
+2025/03/03-15:24:36.578 bad Generated table #132@1: 7305 keys, 2171146 bytes
+2025/03/03-15:24:36.619 bad Generated table #133@1: 8204 keys, 2171931 bytes
+2025/03/03-15:24:36.685 bad Generated table #134@1: 8683 keys, 2168098 bytes
+2025/03/03-15:24:36.748 bad Generated table #135@1: 24574 keys, 2196526 bytes
+2025/03/03-15:24:36.812 bad Generated table #136@1: 37722 keys, 1470843 bytes
+2025/03/03-15:24:36.813 bad Compacted 1@1 + 9@2 files => 16687649 bytes
+2025/03/03-15:24:36.828 bad compacted to: files[ 0 0 8 0 0 0 0 ]
+2025/03/03-15:24:36.829 bad Delete type=2 #118
+2025/03/03-15:24:36.829 bad Delete type=2 #123
+2025/03/03-15:24:36.829 bad Delete type=2 #124
+2025/03/03-15:24:36.829 bad Delete type=2 #121
+2025/03/03-15:24:36.829 bad Delete type=2 #122
+2025/03/03-15:24:36.829 bad Delete type=2 #128
+2025/03/03-15:24:36.829 bad Delete type=2 #125
+2025/03/03-15:24:36.829 bad Delete type=2 #117
+2025/03/03-15:24:36.829 bad Delete type=2 #114
+2025/03/03-15:24:36.829 bad Delete type=2 #120
+2025/03/03-15:24:36.833 bad Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\xf0\x8b@' @ 563284 : 1 .. (end); will stop at (end)

@@ -34,6 +34,12 @@
   # programs.firefox.enable = true;
   programs.hyprland.enable = true;
 
+  # For custom system-keybinds {using kmonad}:
+  services.udev.extraRules = ''
+    KERNEL=="event*", ATTRS{name}=="Apple Internal Keyboard", TAG+="uaccess"
+    KERNEL=="event*", ATTRS{name}=="Evision Kreo Hive RGB", TAG+="uaccess"
+  '';
+
   time.timeZone = "Asia/Kolkata";
 
   # Select internationalisation properties.

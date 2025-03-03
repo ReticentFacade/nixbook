@@ -1,0 +1,669 @@
+{
+   "about": {
+      "message": "About"
+   },
+   "advanced": {
+      "message": "Maintenance"
+   },
+   "advanced_backup_export_button_text": {
+      "message": "Save Backup…"
+   },
+   "advanced_backup_export_description": {
+      "message": "Saves a file containing all your styles, pages, and the highlights they contain. This can be useful for transferring your information to a different browser."
+   },
+   "advanced_backup_export_file_name": {
+      "message": "backup.ldjson"
+   },
+   "advanced_backup_export_title": {
+      "message": "Export"
+   },
+   "advanced_backup_import_button_text": {
+      "message": "Load Backup…"
+   },
+   "advanced_backup_import_description": {
+      "message": "Replaces \u003Cstrong>every\u003C/strong> style, page, and highlight in the database with those contained in the chosen file. This may take a very long time, and it \u003Cstrong>can't be undone\u003C/strong>."
+   },
+   "advanced_backup_import_title": {
+      "message": "Import"
+   },
+   "advanced_backup_panel_heading": {
+      "message": "Backup"
+   },
+   "advanced_database_compact_button_text": {
+      "message": "Optimize Database"
+   },
+   "advanced_database_compact_description": {
+      "message": "Cleans up the highlights database and ensures it is operating as quickly as possible. This is especially useful after you've removed a large number of highlights. This may take a very long time. Note that the amount of storage used may not necessarily reflect the number of highlights."
+   },
+   "advanced_database_compact_title": {
+      "message": "Optimization"
+   },
+   "advanced_database_debug_header": {
+      "message": "Mysterious Text"
+   },
+   "advanced_database_erase_all_button_text": {
+      "message": "Erase All"
+   },
+   "advanced_database_erase_all_description": {
+      "message": "Remove all highlights and styles, and restore the extension to its fresh installation state. This can't be undone."
+   },
+   "advanced_database_erase_all_title": {
+      "message": "Erase All Content and Settings"
+   },
+   "advanced_database_panel_heading": {
+      "message": "Database"
+   },
+   "advanced_database_reset_styles_button_text": {
+      "message": "Reset"
+   },
+   "advanced_database_reset_styles_description": {
+      "message": "Replace all available highlight styles with the default set. Highlights that used these styles will adopt these replacements. Those that used custom styles will appear grey. This can't be undone."
+   },
+   "advanced_database_reset_styles_title": {
+      "message": "Reset Styles"
+   },
+   "advanced_database_storage": {
+      "message": "$USAGE$ storage used",
+      "placeholders": {
+         "quota": {
+            "content": "$2"
+         },
+         "usage": {
+            "content": "$1"
+         }
+      }
+   },
+   "advanced_database_task_compaction": {
+      "message": "Compaction"
+   },
+   "advanced_database_task_indexing": {
+      "message": "Indexing"
+   },
+   "advanced_database_task_replication": {
+      "message": "Replication"
+   },
+   "advanced_database_tasks_active": {
+      "message": "Active Tasks"
+   },
+   "advanced_database_tasks_none": {
+      "message": "None"
+   },
+   "advanced_extension_heading": {
+      "message": "Extension"
+   },
+   "advanced_save_diagnostics_button_text": {
+      "message": "Save Diagnostics…"
+   },
+   "advanced_save_diagnostics_description_list_items": {
+      "message": "\u003Cli>Style name\u003C/li>\u003Cli>Page title\u003C/li>\u003Cli>Page address\u003Cli>Highlight location\u003C/li>\u003Cli>Highlight text snippet\u003C/li>"
+   },
+   "advanced_save_diagnostics_description_text": {
+      "message": "Saves a diagnostics text file, which can help you or the developer discover potential issues. This file is mostly the same as a regular backup, but without any personally identifiable information. The following items will be redacted:"
+   },
+   "advanced_save_diagnostics_status_preparing": {
+      "message": "Building Diagnostics…"
+   },
+   "advanced_save_diagnostics_title": {
+      "message": "Diagnostics"
+   },
+   "alert_content_script_format": {
+      "message": "$name$ browser extension message:\n$message$",
+      "placeholders": {
+         "message": {
+            "content": "$2"
+         },
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "alert_create_highlight_in_editable": {
+      "message": "Unable to create a highlight within an editable text box."
+   },
+   "alert_create_highlight_in_subframe": {
+      "message": "Creating a highlight within a subframe of a page is currently unsupported."
+   },
+   "alert_permission_request_failed": {
+      "message": "Unable to obtain permission: $error$",
+      "placeholders": {
+         "error": {
+            "content": "$1"
+         }
+      }
+   },
+   "alert_trimmable_more": {
+      "message": "$count$ Highlights are over $limit$ characters long. Consider trimming their text snippets to save space. See the \u003Ca href='$url$' class='alert-link'>FAQ\u003C/a> for details.",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "limit": {
+            "content": "$2"
+         },
+         "url": {
+            "content": "$3"
+         }
+      }
+   },
+   "alert_trimmable_one": {
+      "message": "$count$ highlight is over $limit$ characters long. Consider trimming its text snippet to save space. See the \u003Ca href='$url$' class='alert-link'>FAQ\u003C/a> for details.",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "limit": {
+            "content": "$2"
+         },
+         "url": {
+            "content": "$3"
+         }
+      }
+   },
+   "bookmarks": {
+      "message": "Pages"
+   },
+   "bookmarks_heading_none": {
+      "message": "No highlights"
+   },
+   "bookmarks_heading_plural": {
+      "message": "$count$ highlights",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "bookmarks_heading_single": {
+      "message": "$count$ highlight",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "bookmarks_heading_unknown": {
+      "message": "Indexing Pages…"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "changelog": {
+      "message": "Changelog"
+   },
+   "changelog_pathname": {
+      "message": "changelog/"
+   },
+   "character_count": {
+      "message": "$count$ characters",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "close": {
+      "message": "Close"
+   },
+   "compaction_status_compacting": {
+      "message": "Optimizing Database ($PERCENT$)…",
+      "placeholders": {
+         "percent": {
+            "content": "$1"
+         }
+      }
+   },
+   "compaction_status_finishing": {
+      "message": "Finishing Off…"
+   },
+   "confirm_remove_all_highlights_plural": {
+      "message": "Are you sure you wish to remove every highlight on these pages? This operation can't be undone."
+   },
+   "confirm_remove_all_highlights_single": {
+      "message": "Are you sure you wish to remove every highlight on this page? This operation can't be undone."
+   },
+   "confirm_remove_every_highlight": {
+      "message": "Are you sure you want to remove every highlight on every page? This operation can't be undone."
+   },
+   "confirm_remove_style": {
+      "message": "Are you sure you want to remove this style? This operation can't be undone."
+   },
+   "confirm_reset_default_styles": {
+      "message": "Are you sure you wish to reset styles? This operation can't be undone."
+   },
+   "confirm_reset_extension": {
+      "message": "Are you sure you wish to reset the extension? This operation can't be undone."
+   },
+   "copy_highlight_text": {
+      "message": "Copy"
+   },
+   "copy_overview": {
+      "message": "Copy"
+   },
+   "copyright_year": {
+      "message": "2010-24"
+   },
+   "create": {
+      "message": "Create"
+   },
+   "create_new_style": {
+      "message": "Create New Style…"
+   },
+   "default": {
+      "message": "Default"
+   },
+   "delete_highlight": {
+      "message": "Remove"
+   },
+   "disabled": {
+      "message": "Disabled"
+   },
+   "edit_style": {
+      "message": "Edit Style"
+   },
+   "enabled": {
+      "message": "Enabled"
+   },
+   "expand_all_text": {
+      "message": "Expand All Snippets"
+   },
+   "expand_text": {
+      "message": "Expand Snippets"
+   },
+   "export_status_on_data": {
+      "message": "Collecting Data ($SIZE$)…",
+      "placeholders": {
+         "size": {
+            "content": "$1"
+         }
+      }
+   },
+   "export_status_preparing": {
+      "message": "Preparing…"
+   },
+   "extension_author": {
+      "message": "Stephen Shodimu"
+   },
+   "extension_company": {
+      "message": "Dexterous Logic software"
+   },
+   "extension_company_url": {
+      "message": "https://www.dexterouslogic.com/"
+   },
+   "extension_description": {
+      "message": "Make permanent, private highlights on any web page."
+   },
+   "extension_name": {
+      "message": "Super Simple Highlighter"
+   },
+   "extension_version_code_name": {
+      "message": "Disco Bunny"
+   },
+   "extension_version_code_url": {
+      "message": "https://www.youtube.com/watch?v=qrn9cNbxldM"
+   },
+   "faq": {
+      "message": "Frequently Asked Questions"
+   },
+   "faq_pathname": {
+      "message": "faq/"
+   },
+   "group_by_bytes_count": {
+      "message": "By Storage Size"
+   },
+   "group_by_first_date": {
+      "message": "By Date Created"
+   },
+   "group_by_highlights_count": {
+      "message": "By Highlight Count"
+   },
+   "group_by_last_date": {
+      "message": "By Date Modified"
+   },
+   "group_by_title": {
+      "message": "By Title"
+   },
+   "help": {
+      "message": "Help"
+   },
+   "help_pathname": {
+      "message": "$distribution$/help/",
+      "placeholders": {
+         "distribution": {
+            "content": "$1"
+         }
+      }
+   },
+   "hidden": {
+      "message": "Hidden"
+   },
+   "hide": {
+      "message": "Hide"
+   },
+   "highlight_allow_nested": {
+      "message": "Allow nested highlights"
+   },
+   "highlight_allow_selection": {
+      "message": "Allow Text Selection"
+   },
+   "highlight_background_colour": {
+      "message": "Background Color"
+   },
+   "highlight_blockquote": {
+      "message": "Block Quotation"
+   },
+   "highlight_blur": {
+      "message": "Blur"
+   },
+   "highlight_bold": {
+      "message": "Bold"
+   },
+   "highlight_box_shadow_enabled": {
+      "message": "Blur the edge of the highlight"
+   },
+   "highlight_colour_use_background": {
+      "message": "Same as Background"
+   },
+   "highlight_drop_shadow": {
+      "message": "Drop Shadow"
+   },
+   "highlight_filters": {
+      "message": "Filters"
+   },
+   "highlight_font_family": {
+      "message": "Font Family"
+   },
+   "highlight_font_style": {
+      "message": "Font Style"
+   },
+   "highlight_format": {
+      "message": "Appearance"
+   },
+   "highlight_help_styles": {
+      "message": "Assign a shortcut from the browser's"
+   },
+   "highlight_help_styles_strong": {
+      "message": "Extensions -> 'Keyboard shortcuts'"
+   },
+   "highlight_interaction": {
+      "message": "Interaction"
+   },
+   "highlight_invert": {
+      "message": "Invert"
+   },
+   "highlight_italic": {
+      "message": "Italic"
+   },
+   "highlight_keep_selection": {
+      "message": "Retain text selection after highlight is applied"
+   },
+   "highlight_monospace": {
+      "message": "Fixed-width"
+   },
+   "highlight_scale": {
+      "message": "Scale"
+   },
+   "highlight_strikethrough": {
+      "message": "Strikethrough"
+   },
+   "highlight_text_colour": {
+      "message": "Text Color"
+   },
+   "highlight_title": {
+      "message": "Title"
+   },
+   "highlight_title_undefined": {
+      "message": "Untitled"
+   },
+   "highlight_underline": {
+      "message": "Underline"
+   },
+   "highlights": {
+      "message": "Highlights"
+   },
+   "highlights_page_title_prefix": {
+      "message": "Highlights"
+   },
+   "import_status_cleanup_documents": {
+      "message": "Removing Obsolete Pages…"
+   },
+   "import_status_cleanup_views": {
+      "message": "Removing Unnecessary Metadata…"
+   },
+   "import_status_fixup_invalid_delete_documents": {
+      "message": "Checking Database Consistency…"
+   },
+   "import_status_importing_db": {
+      "message": "Importing Database…"
+   },
+   "import_status_importing_styles": {
+      "message": "Importing Styles…"
+   },
+   "import_status_indexing": {
+      "message": "Indexing Database…"
+   },
+   "import_status_preparing": {
+      "message": "Preparing…"
+   },
+   "import_status_verifying_db": {
+      "message": "Verifying Database…"
+   },
+   "init_status_get_matching": {
+      "message": "Fetching Page Metadata…"
+   },
+   "init_status_get_sums": {
+      "message": "Gathering Highlighted Pages…"
+   },
+   "libraries": {
+      "message": "This extension is composed of the following libraries"
+   },
+   "licenses": {
+      "message": "Licenses"
+   },
+   "list_item_title_not_in_dom": {
+      "message": "Unable to locate highlight on the page"
+   },
+   "make_default": {
+      "message": "Make Default"
+   },
+   "more": {
+      "message": "more"
+   },
+   "new_style": {
+      "message": "New Style"
+   },
+   "open": {
+      "message": "Open"
+   },
+   "open_site_in_new_tab": {
+      "message": "Open Site in New Tab"
+   },
+   "options_page_title": {
+      "message": "Options"
+   },
+   "options_tab_page_header_sites_subtitle": {
+      "message": "Styles that are disabled are shown faded out. They can still be edited, but won't be available for use."
+   },
+   "options_tab_page_header_sites_title": {
+      "message": "Select a style to change its appearance"
+   },
+   "overview_footer": {
+      "message": "Created with $EXTENSION_NAME$. ©$COPYRIGHT_YEAR$ [$EXTENSION_AUTHOR$]($EXTENSION_AUTHOR_URL$)",
+      "placeholders": {
+         "copyright_year": {
+            "content": "$2"
+         },
+         "extension_author": {
+            "content": "$3"
+         },
+         "extension_author_url": {
+            "content": "$4"
+         },
+         "extension_name": {
+            "content": "$1"
+         }
+      }
+   },
+   "overview_page": {
+      "message": "Summary"
+   },
+   "overview_page_title": {
+      "message": "Summary - $TITLE$",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "overview_pages_title": {
+      "message": "Summaries - $TITLE$ (+$COUNT$ more)",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "title": {
+            "content": "$1"
+         }
+      }
+   },
+   "page": {
+      "message": "Page"
+   },
+   "page_action_default_title": {
+      "message": "Show highlights"
+   },
+   "page_action_title_not_in_dom": {
+      "message": "Super Simple Highlighter was unable to restore all highlights."
+   },
+   "page_action_title_permission_required": {
+      "message": "Super Simple Highlighter requires permission to modify the page."
+   },
+   "page_menu_title": {
+      "message": "Menu"
+   },
+   "pages_empty": {
+      "message": "Pages containing highlights will be listed here."
+   },
+   "placeholder_filter": {
+      "message": "Filter"
+   },
+   "popup_no_highlights": {
+      "message": "This Page Contains No Highlights"
+   },
+   "popup_status_init": {
+      "message": "Preparing Highlights…"
+   },
+   "privacy_policy": {
+      "message": "Privacy Policy"
+   },
+   "privacy_policy_pathname": {
+      "message": "privacy/"
+   },
+   "reload": {
+      "message": "Reload"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "remove_all": {
+      "message": "Remove All"
+   },
+   "remove_all_highlights": {
+      "message": "Remove All Highlights"
+   },
+   "remove_highlight": {
+      "message": "Remove Highlight"
+   },
+   "request_permission": {
+      "message": "Request Permission"
+   },
+   "required_highlight_title": {
+      "message": "* Title Required"
+   },
+   "save_overview": {
+      "message": "Save As…"
+   },
+   "save_overview_file_name": {
+      "message": "summary.md.txt"
+   },
+   "select_highlight_text": {
+      "message": "Select All"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "show": {
+      "message": "Show"
+   },
+   "show_all": {
+      "message": "Show All"
+   },
+   "sort_by_location": {
+      "message": "By Position"
+   },
+   "sort_by_style": {
+      "message": "By Style"
+   },
+   "sort_by_time": {
+      "message": "By Date"
+   },
+   "speak_highlight_text": {
+      "message": "Speak"
+   },
+   "style_missing": {
+      "message": "Unknown Style"
+   },
+   "styles": {
+      "message": "Styles"
+   },
+   "text_remove_all_pages": {
+      "message": "Remove All Pages…"
+   },
+   "title": {
+      "message": "Title"
+   },
+   "title_filter_style": {
+      "message": "Filter by Style"
+   },
+   "title_sort_direction": {
+      "message": "Sort Direction"
+   },
+   "tooltip_copy_highlight": {
+      "message": "Copy the highlighted text to the clipboard"
+   },
+   "tooltip_select_highlight": {
+      "message": "Selects the highlighted text"
+   },
+   "tooltip_speak_highlight": {
+      "message": "Say the highlighted text"
+   },
+   "tooltip_trimmed": {
+      "message": "The snippet of this highlight has been trimmed"
+   },
+   "trim": {
+      "message": "Trim"
+   },
+   "trim_snippet": {
+      "message": "Trim Snippet"
+   },
+   "undo": {
+      "message": "Undo"
+   },
+   "untitled_page_group_tooltip": {
+      "message": "Pages for which the title has not yet been obtained, or is not specified."
+   },
+   "untitled_page_title": {
+      "message": "Untitled"
+   },
+   "update": {
+      "message": "Update"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "warning_default_permissions_required": {
+      "message": "Additional permissions are required to make highlights on this site."
+   }
+}

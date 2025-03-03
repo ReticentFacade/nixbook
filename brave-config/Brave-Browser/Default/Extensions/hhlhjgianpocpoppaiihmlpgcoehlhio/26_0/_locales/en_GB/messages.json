@@ -1,0 +1,31 @@
+{
+   "advanced_database_compact_button_text": {
+      "message": "Optimise Database"
+   },
+   "advanced_database_compact_title": {
+      "message": "Optimisation"
+   },
+   "compaction_status_compacting": {
+      "message": "Optimising Database ($PERCENT$)…",
+      "placeholders": {
+         "percent": {
+            "content": "$1"
+         }
+      }
+   },
+   "extension_description": {
+      "message": "Make permanent, private highlights on any web page."
+   },
+   "extension_name": {
+      "message": "Super Simple Highlighter"
+   },
+   "highlight_background_colour": {
+      "message": "Background Colour"
+   },
+   "highlight_text_colour": {
+      "message": "Text Colour"
+   },
+   "licenses": {
+      "message": "Licences"
+   }
+}
