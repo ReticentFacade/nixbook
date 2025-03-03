@@ -19,6 +19,7 @@
       adwaita-icon-theme
       curl
 
+      zoom-us
       anydesk
       teamviewer
       newsflash
