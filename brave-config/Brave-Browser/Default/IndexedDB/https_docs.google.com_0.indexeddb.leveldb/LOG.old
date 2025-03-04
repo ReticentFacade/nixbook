@@ -1,7 +1,0 @@
-2025/03/03-20:09:08.424 b0e Reusing MANIFEST /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/03-20:09:08.424 b0e Recovering log #3
-2025/03/03-20:09:08.425 b0e Reusing old log /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 
-2025/03/03-20:09:11.443 b00 Level-0 table #5: started
-2025/03/03-20:09:11.451 b00 Level-0 table #5: 8490 bytes OK
-2025/03/03-20:09:11.462 b00 Delete type=0 #3
-2025/03/03-20:09:11.462 b00 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

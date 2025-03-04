@@ -31,7 +31,5 @@
     # };
   };
 
-  # home.file.".config/BraveSoftware/Brave-Browser".source = ./brave-config/Brave-Browser;
-
   programs.home-manager.enable = true;
 }

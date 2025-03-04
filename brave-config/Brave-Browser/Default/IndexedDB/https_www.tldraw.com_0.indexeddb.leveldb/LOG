@@ -1,5 +1,0 @@
-2025/03/02-22:46:24.065 b39b Creating DB /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tldraw.com_0.indexeddb.leveldb since it was missing.
-2025/03/02-22:46:24.087 b39b Reusing MANIFEST /home/reticent/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tldraw.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/02-23:01:11.474 b39c Level-0 table #5: started
-2025/03/02-23:01:11.533 b39c Level-0 table #5: 939840 bytes OK
-2025/03/02-23:01:11.546 b39c Delete type=0 #3

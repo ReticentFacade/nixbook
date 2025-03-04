@@ -2,6 +2,7 @@
   config,
   pkgs,
   inputs,
+  lib,
   ...
 }: {
   imports = [
@@ -66,6 +67,10 @@
   };
 
   nixpkgs.config.allowUnfree = true;
+  nixpgs.config.allowUnfreePredicate = pkg:
+    builtins.elem (lib.getName pkg) [
+      "zoom-us"
+    ];
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget

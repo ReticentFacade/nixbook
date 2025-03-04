@@ -1,6 +1,0 @@
-2025/03/03-16:02:16.437 4 Reusing MANIFEST /home/reticent/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2025/03/03-16:02:16.441 4 Recovering log #29
-2025/03/03-16:02:16.442 4 Reusing old log /home/reticent/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000029.log 
-2025/03/03-16:02:29.563 5 Level-0 table #33: started
-2025/03/03-16:02:29.578 5 Level-0 table #33: 51296 bytes OK
-2025/03/03-16:02:29.592 5 Delete type=0 #29
