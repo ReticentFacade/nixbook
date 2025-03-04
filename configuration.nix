@@ -32,7 +32,7 @@
   };
 
   # programs.firefox.enable = true;
-  programs.hyprland.enable = true;
+  # programs.hyprland.enable = true;
 
   # For custom system-keybinds {using kmonad}:
   services.udev.extraRules = ''

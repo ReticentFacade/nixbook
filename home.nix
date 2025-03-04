@@ -15,7 +15,7 @@
     ./modules/home/terminals/ghostty.nix
     ./modules/home/programs/zoxide.nix
     ./modules/home/programs/firefox.nix
-    ./modules/home/desktop/hyprland.nix
+    # ./modules/home/desktop/hyprland.nix
   ];
 
   home = {
@@ -31,7 +31,7 @@
     # };
   };
 
-  home.file.".config/BraveSoftware/Brave-Browser".source = ./brave-config/Brave-Browser;
+  # home.file.".config/BraveSoftware/Brave-Browser".source = ./brave-config/Brave-Browser;
 
   programs.home-manager.enable = true;
 }
