@@ -67,7 +67,7 @@
   };
 
   nixpkgs.config.allowUnfree = true;
-  nixpgs.config.allowUnfreePredicate = pkg:
+  nixpkgs.config.allowUnfreePredicate = pkg:
     builtins.elem (lib.getName pkg) [
       "zoom-us"
     ];
