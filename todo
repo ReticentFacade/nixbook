@@ -1,0 +1,12 @@
+Replace that line in home.nix with the following: 
+
+ programs.chromium = {
+    enable = true;
+    package = pkgs.brave;
+    extensions = [
+      { id = "cjpalhdlnbpafiamejdnhcphjbkeiagm"; } # ublock origin
+    ];
+    commandLineArgs = [
+      "--disable-features=WebRtcAllowInputVolumeAdjustment"
+    ];
+  }
