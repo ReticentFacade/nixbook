@@ -1,7 +1,7 @@
 {
   config,
   pkgs,
-  lib,
+  # lib,
   ...
 }: {
   imports = [
@@ -24,26 +24,26 @@
     homeDirectory = "/home/reticent";
     stateVersion = "24.11";
 
-    packages = with pkgs; [
-      (pkgs.brave.overrideAttrs (oldAttrs: {
-        postFixup = ''
-          wrapProgram $out/bin/brave --add-flags "--user-data-dir=${builtins.getEnv "HOME"}/brave-profile"
-        '';
-      }))
-    ];
-
-    activation = {
-      linkBraveProfile = lib.hm.dag.entryAfter ["writeBoundary"] ''
-        rm -rf ~/.config/BraveSoftware/Brave-Browser
-        ln -sfn ~/brave-profile ~/.config/BraveSoftware/Brave-Browser
-      '';
-    };
+    # packages = with pkgs; [
+    #   (pkgs.brave.overrideAttrs (oldAttrs: {
+    #     postFixup = ''
+    #       wrapProgram $out/bin/brave --add-flags "--user-data-dir=${builtins.getEnv "HOME"}/brave-profile"
+    #     '';
+    #   }))
+    # ];
+    #
+    # activation = {
+    #   linkBraveProfile = lib.hm.dag.entryAfter ["writeBoundary"] ''
+    #     rm -rf ~/.config/BraveSoftware/Brave-Browser
+    #     ln -sfn ~/brave-profile ~/.config/BraveSoftware/Brave-Browser
+    #   '';
+    # };
   };
 
-  # programs.brave = {
-  #   enable = true;
-  #   package = pkgs.brave;
-  # };
+  programs.brave = {
+    enable = true;
+    package = pkgs.brave;
+  };
 
   programs.home-manager.enable = true;
 }
