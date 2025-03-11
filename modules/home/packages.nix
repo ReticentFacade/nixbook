@@ -28,7 +28,9 @@
       nwg-displays
       playerctl
 
-      libgcc
+      gcc
+      gcc11
+      gcc14
       fastfetch
       tmux
       nnn
