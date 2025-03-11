@@ -7,7 +7,6 @@
       '')
 
       brave
-      kmonad # for keyboard shortcut settings
       # spotify
       libreoffice
       obsidian
@@ -19,6 +18,7 @@
       adwaita-icon-theme
       curl
 
+      vscode
       zoom-us
       anydesk
       teamviewer
@@ -28,6 +28,7 @@
       nwg-displays
       playerctl
 
+      libgcc
       fastfetch
       tmux
       nnn

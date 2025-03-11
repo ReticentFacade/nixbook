@@ -32,6 +32,15 @@
     };
   };
 
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+
+  hardware.bluetooth.settings = {
+    General = {
+      Experimental = true;
+    };
+  };
+
   # programs.firefox.enable = true;
   # programs.hyprland.enable = true;
 
@@ -74,21 +83,23 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  # environment.systemPackages = with pkgs; [
-  #   adwaita-icon-theme
-  #   iw
-  #   vim
-  #   git
-  #   wget
-  #   libreoffice
-  #
-  #   inputs.helix.packages."${pkgs.system}".helix
-  #
-  #   curl
-  #   ghostty
-  #   tree
-  #   fastfetch
-  # ];
+  environment.systemPackages = with pkgs; [
+    vim
+    onefetch
+    bluez
+    # adwaita-icon-theme
+    # iw
+    # git
+    # wget
+    # libreoffice
+    #
+    # inputs.helix.packages."${pkgs.system}".helix
+    #
+    # curl
+    # ghostty
+    # tree
+    # fastfetch
+  ];
 
   system.stateVersion = "24.11";
 }
