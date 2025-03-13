@@ -596,7 +596,9 @@ require("barbar").setup({
 ---
 -- [[ Keybindings ]]
 ---
-vim.keymap.set({ "i", "n" }, "<c-;>", "<Esc>maA;<Esc>`a" .. "a")
+-- vim.keymap.set({ "i", "n" }, "<c-;>", "<Esc>maA;<Esc>`a" .. "a")
+vim.keymap.set({ "i", "n" }, "<c-;>", "<Esc>maA;<Esc>`a" .. "<Esc>")
+
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { silent = true })
 
 vim.keymap.set("n", "Y", '"+y', { noremap = true, silent = true })

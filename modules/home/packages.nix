@@ -28,8 +28,8 @@
       nwg-displays
       playerctl
 
-      gcc
-      gcc11
+      # gcc
+      # gcc11
       gcc14
       fastfetch
       tmux
@@ -81,7 +81,7 @@
       zig
       bun
       cmake
-      clang
+      # clang
       rustup
       nodejs
       python3
