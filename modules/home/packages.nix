@@ -28,6 +28,7 @@
       nwg-displays
       playerctl
 
+      sqlite
       # gcc
       # gcc11
       gcc14
