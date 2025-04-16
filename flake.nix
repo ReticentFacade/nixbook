@@ -8,9 +8,9 @@
     nixos-hardware = {
       url = "github:Nixos/nixos-hardware";
     };
-    helix = {
-      url = "github:helix-editor/helix/master";
-    };
+    # helix = {
+    #   url = "github:helix-editor/helix/master";
+    # };
     home-manager = {
       url = "github:nix-community/home-manager";
       # The `follows` keyword in inputs is used for inheritance.
