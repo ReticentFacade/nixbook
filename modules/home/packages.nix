@@ -9,6 +9,7 @@
       brave
       # spotify
       docker
+      docker-compose
       libreoffice
       obsidian
       gimp
