@@ -8,6 +8,7 @@
 
       brave
       # spotify
+      docker
       libreoffice
       obsidian
       gimp

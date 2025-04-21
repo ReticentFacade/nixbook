@@ -81,6 +81,9 @@
       "zoom-us"
     ];
 
+  virtualisation.docker.enable = true;
+  users.users.reticent.extraGroups = ["docker"];
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
