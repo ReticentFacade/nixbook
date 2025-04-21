@@ -10,6 +10,7 @@
       # spotify
       docker
       docker-compose
+      jq
       libreoffice
       obsidian
       gimp
