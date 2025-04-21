@@ -38,12 +38,23 @@
     #     ln -sfn ~/brave-profile ~/.config/BraveSoftware/Brave-Browser
     #   '';
     # };
+
+    sessionVariables = {
+      PATH="$HOME/fabric-tools/fabric-samples/bin"
+    };
   };
 
   programs.brave = {
     enable = true;
     package = pkgs.brave;
   };
+
+  # programs.nushell = {
+  #   enable = true;
+  #   extraConfig = ''
+  #     $env.PATH = ($env.PATH | append $"($env.HOME)/fabric-samples/bin")
+  #   '';
+  # };
 
   programs.home-manager.enable = true;
 }
