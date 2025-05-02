@@ -40,7 +40,7 @@
     # };
 
     sessionVariables = {
-      PATH="$HOME/fabric-tools/fabric-samples/bin"
+      PATH = "$HOME/fabric-tools/fabric-samples/bin";
     };
   };
 
