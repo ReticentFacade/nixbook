@@ -11,7 +11,7 @@
       docker
       docker-compose
       jq
-      hyperledger-fabric-ca
+      # hyperledger-fabric-ca
       libreoffice
       obsidian
       gimp
