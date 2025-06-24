@@ -43,6 +43,14 @@
 
   # programs.firefox.enable = true;
   # programs.hyprland.enable = true;
+  programs.dconf.enable = true;
+
+  xdg = {
+    portal = {
+      enable = true;
+      extraPortals = [pkgs.xdg-desktop-portal-gtk];
+    };
+  };
 
   # For custom system-keybinds {using kmonad}:
   services.udev.extraRules = ''
@@ -102,6 +110,8 @@
     # ghostty
     # tree
     # fastfetch
+    gnome.gnome-tweaks
+    gnome.gnome-terminal
   ];
 
   system.stateVersion = "24.11";

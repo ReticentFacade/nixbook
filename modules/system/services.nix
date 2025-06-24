@@ -47,5 +47,7 @@
       # Enable touchpad support (enabled default in most desktopManager).
       enable = true;
     };
+
+    dbus.enable = true;
   };
 }
