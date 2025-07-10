@@ -110,8 +110,8 @@
     # ghostty
     # tree
     # fastfetch
-    gnome.gnome-tweaks
-    gnome.gnome-terminal
+    # gnome.gnome-tweaks
+    # gnome.gnome-terminal
   ];
 
   system.stateVersion = "24.11";
