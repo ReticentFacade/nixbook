@@ -1,5 +1,10 @@
 {pkgs, ...}: {
   services = {
+    postgresql = {
+      enable = true;
+      package = pkgs.postgresql_16;
+    };
+
     xserver = {
       enable = true;
       displayManager = {

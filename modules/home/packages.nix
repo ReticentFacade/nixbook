@@ -1,13 +1,18 @@
-{pkgs, ...}: {
+{pkgs, ...}: let
+  pythonWithPip = pkgs.python3.withPackages (ps: with ps; [pip]);
+in {
   home = {
     packages = with pkgs; [
       (writeScriptBin "cow" ''
         #!/usr/bin/env bash
         cowsay $(fortune)
       '')
+      # (python3.withPackages (ps: with ps; [pip]))
 
       brave
       # spotify
+
+      # postgresql_18
       docker
       docker-compose
       jq
@@ -22,6 +27,7 @@
       adwaita-icon-theme
       curl
 
+      pythonWithPip
       vscode
       zoom-us
       anydesk
@@ -89,7 +95,7 @@
       # clang
       rustup
       nodejs
-      python3
+      # python3
       corepack
 
       obs-studio
