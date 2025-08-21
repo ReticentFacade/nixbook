@@ -13,6 +13,7 @@ in {
       # spotify
 
       # postgresql_18
+      openjdk17
       docker
       docker-compose
       jq
