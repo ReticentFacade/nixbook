@@ -1,5 +1,5 @@
 {pkgs, ...}: let
-  pythonWithPip = pkgs.python3.withPackages (ps: with ps; [pip]);
+  pythonWithPip = pkgs.python312.withPackages (ps: with ps; [pip]);
 in {
   home = {
     packages = with pkgs; [
