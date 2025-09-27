@@ -1,7 +1,7 @@
-# {pkgs, ...}: let
-# pythonWithPip = pkgs.python312.withPackages (ps: with ps; [pip]);
-# in {
-{pkgs, ...}: {
+{pkgs, ...}: let
+  pythonWithPip = pkgs.python312.withPackages (ps: with ps; [pip]);
+in {
+  # {pkgs, ...}: {
   home = {
     packages = with pkgs; [
       (writeScriptBin "cow" ''
@@ -29,7 +29,9 @@
       adwaita-icon-theme
       curl
 
-      # pythonWithPip
+      pythonWithPip
+      # python3
+      # pipenv
       vscode
       zoom-us
       anydesk
@@ -97,7 +99,6 @@
       # clang
       rustup
       nodejs
-      python3
       corepack
 
       obs-studio
