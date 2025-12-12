@@ -14,6 +14,7 @@ in {
       # spotify
 
       # postgresql_18
+      docker
       openjdk17
       docker
       docker-compose
