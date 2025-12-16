@@ -100,7 +100,7 @@ in {
       # clang
       rustup
       nodejs
-      corepack
+      # corepack
 
       obs-studio
       obs-studio-plugins.wlrobs

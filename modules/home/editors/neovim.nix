@@ -92,7 +92,8 @@
       wl-clipboard
 
       # WakaTime CLI
-      wakatime
+      # wakatime
+      wakatime-cli
     ];
 
     extraConfig = let
