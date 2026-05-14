@@ -35,7 +35,8 @@
       autoclose-nvim
 
       # Tree-sitter
-      nvim-treesitter.withAllGrammars
+      nvim-treesitter
+      # nvim-treesitter.withAllGrammars
 
       # Telescope
       telescope-nvim
@@ -66,8 +67,8 @@
       pyright
       clang-tools
       svelte-language-server
-      nodePackages.typescript-language-server
-      nodePackages.vscode-langservers-extracted
+      typescript-language-server
+      vscode-langservers-extracted
       zig
       tailwindcss-language-server
       marksman
@@ -78,7 +79,7 @@
       alejandra
       rustfmt
       deno
-      nodePackages.prettier
+      prettier
       taplo
       gofumpt
       stylua
