@@ -15,6 +15,7 @@ in {
 
       # postgresql_18
       docker
+      redis
       openjdk17
       docker
       docker-compose
