@@ -8,9 +8,9 @@ let
     src = ../../../themes/Material-Black-Blueberry-3.0.3.tar;
 
     installPhase = ''
-      mkdir -p $out/share/themes
-      cp -r Material-Black-Blueberry $out/share/themes/
-    '';
+  mkdir -p $out/share/themes/Material-Black-Blueberry
+  cp -r . $out/share/themes/Material-Black-Blueberry/
+'';
   };
 in
 {
