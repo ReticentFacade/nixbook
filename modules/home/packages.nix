@@ -137,6 +137,7 @@ in {
       colloid-gtk-theme
       # zuki-themes # deprecated
       # graphite-gtk-theme
+      material-black-colors
       papirus-icon-theme
       nwg-look
     ];

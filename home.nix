@@ -17,6 +17,7 @@
     ./modules/home/programs/zoxide.nix
     ./modules/home/programs/firefox.nix
     # ./modules/home/desktop/hyprland.nix
+    ./modules/home/desktop/material-black.nix
   ];
 
   home = {
