@@ -86,7 +86,7 @@ in {
       iotop
       iftop
       strace
-      ltraceu
+      # ltrace
       lsof
       sysstat
       lm_sensors
@@ -107,9 +107,9 @@ in {
       obs-studio-plugins.wlrobs
       obs-studio-plugins.obs-pipewire-audio-capture
 
-      vscodium
-      gnomeExtensions.vscodium-workspaces
-      gnomeExtensions.vscode-recent-folders
+      # vscodium
+      # gnomeExtensions.vscodium-workspaces
+      # gnomeExtensions.vscode-recent-folders
       # gnomeExtensions.vscode-search-provider
 
       zls
@@ -124,7 +124,8 @@ in {
       tailwindcss-language-server
       # svelte-language-server
       markdownlint-cli
-      nixfmt-classic
+      # nixfmt-classic
+      nixfmt
       alejandra
       nixd
       nil
@@ -134,8 +135,8 @@ in {
       whitesur-cursors
 
       colloid-gtk-theme
-      zuki-themes
-      graphite-gtk-theme
+      # zuki-themes # deprecated
+      # graphite-gtk-theme
       papirus-icon-theme
       nwg-look
     ];
