@@ -86,7 +86,7 @@ in {
       iotop
       iftop
       strace
-      ltrace
+      ltraceu
       lsof
       sysstat
       lm_sensors
@@ -106,6 +106,11 @@ in {
       obs-studio
       obs-studio-plugins.wlrobs
       obs-studio-plugins.obs-pipewire-audio-capture
+
+      vscodium
+      gnomeExtensions.vscodium-workspaces
+      gnomeExtensions.vscode-recent-folders
+      # gnomeExtensions.vscode-search-provider
 
       zls
       gopls
