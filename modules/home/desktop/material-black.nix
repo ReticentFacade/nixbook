@@ -8,21 +8,19 @@ let
     src = ../../../themes/Material-Black-Blueberry-3.0.3.tar;
 
     installPhase = ''
-      mkdir -p $out/share/themes/Material-Black-Blueberry
-      cp -r . $out/share/themes/Material-Black-Blueberry/
+      mkdir -p $out
+      cp -r . $out/
     '';
   };
-in
-{
-  home.packages = [
-    material-black
-    pkgs.material-black-colors
-  ];
+in {
+  home.file.".themes/Material-Black-Blueberry".source =
+    "${material-black}";
 
-  gtk = {
-    enable = true;
+  home.file.".icons/Material-Black-Blueberry-Suru".source =
+    "${pkgs.material-black-colors}/share/icons/Material-Black-Blueberry-Suru";
 
-    theme.name = "Material-Black-Blueberry";
-    iconTheme.name = "Material-Black-Blueberry-Suru";
+  dconf.settings."org/gnome/desktop/interface" = {
+    gtk-theme = "Material-Black-Blueberry";
+    icon-theme = "Material-Black-Blueberry-Suru";
   };
 }
